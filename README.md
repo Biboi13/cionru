@@ -1,4 +1,13 @@
-# cionru (WIP)
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/jorenrui/cionru/master/assets/img/logo.svg"
+    alt="cionru logo"
+    width="300"
+    height="300"
+  />
+</p>
+
+# Cionru (WIP)
 
 > A React component library built with emotion
 
