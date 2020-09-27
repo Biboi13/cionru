@@ -2,17 +2,17 @@
 import styled from '@emotion/styled';
 
 // ANCHOR Types
-import { ITheme } from '../types';
+import { ITheme } from '../utils/types';
 import { IButtonProps, IFontStyleProps } from './types';
 
 // ANCHOR Theme
-import { theme as defaultTheme } from '../theme';
+import { theme as defaultTheme } from '../utils/theme';
 
 // ANCHOR Utils
 import { isObjectEmpty } from '../utils/isObjectEmpty';
 
 // ANCHOR Constants
-import { SIZE } from '../constants';
+import { SIZE } from '../utils/constants';
 
 export const Button = styled.button<IButtonProps, ITheme>(
   {
