@@ -13,10 +13,10 @@ export const Button = styled.button(
     border: '4px solid #141414',
 
     '&:hover': {
-      color: 'red'
-    }
+      color: 'red',
+    },
   },
   (props: IProps) => ({
-    fontSize: props.fontSize
+    fontSize: props.fontSize,
   })
 );
