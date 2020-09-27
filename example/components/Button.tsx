@@ -2,10 +2,10 @@
 import * as React from 'react';
 
 // ANCHOR Cionru
-import { Button as CionButton } from '../../.';
+import { Button as CionButton, SIZE } from '../../.';
 
 export const Button = () => (
-  <CionButton fontSize="14px">
+  <CionButton size={SIZE.default}>
     Hello
   </CionButton>
 );
