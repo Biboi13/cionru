@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="https://raw.githubusercontent.com/jorenrui/cionru/master/assets/img/logo.svg"
+    src="https://raw.githubusercontent.com/jorenrui/cionru/main/assets/img/logo.svg"
     alt="cionru logo"
     width="300"
     height="300"
