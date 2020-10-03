@@ -2,15 +2,15 @@
 import * as React from 'react';
 
 // ANCHOR Cionru
-import { CionruThemeProvider } from '../.';
+import { CionProvider } from '../.';
 
 // ANCHOR Components
 import { ButtonContainer } from './components/ButtonContainer';
 
 export const App = () => (
   <div>
-    <CionruThemeProvider>
+    <CionProvider>
       <ButtonContainer />
-    </CionruThemeProvider>
+    </CionProvider>
   </div>
 );

@@ -3,9 +3,10 @@ import styled from '@emotion/styled';
 
 // ANCHOR Theme
 export { ThemeProvider } from 'emotion-theming';
-export { CionruThemeProvider, theme } from './utils/theme';
+export { theme } from './utils/theme';
 
 // ANCHOR Components
+export { CionProvider } from './utils/provider';
 export { Button } from './button';
 
 // ANCHOR Constants
