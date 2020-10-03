@@ -11,7 +11,8 @@
 
 > A work-in-progress React UI component library that aims to be accessible, responsive, modern and minimal.
 
-[![MIT License Status](https://img.shields.io/badge/license-MIT-blue)](https://github.com/jorenrui/context-model/blob/master/LICENSE)
+[![0.1.0 NPM Version](https://img.shields.io/badge/npm-v0.1.0-orange)](http://npmjs.com/package/cionru)
+[![MIT License Status](https://img.shields.io/badge/license-MIT-blue)](https://github.com/jorenrui/cionru/blob/main/LICENSE)
 
 A React UI component library built with EmotionJS.
 
@@ -128,6 +129,10 @@ BaseWeb is the first React UI component library that I've used. It is an impleme
 ### [Material UI](https://material-ui.com/)
 
 A popular library that is a React implementation of [Material Design](https://material.io/design/), tho of course, you can customize the design/theme it if you want. I also recommend using this 😁
+
+## Changelog
+
+[Changelog](https://github.com/jorenrui/cionru/blob/main/CHANGELOG.md)
 
 ## License
 
