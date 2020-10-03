@@ -5,12 +5,12 @@ import * as React from 'react';
 import { CionruThemeProvider } from '../.';
 
 // ANCHOR Components
-import { Button } from './components/Button';
+import { ButtonContainer } from './components/ButtonContainer';
 
 export const App = () => (
   <div>
     <CionruThemeProvider>
-      <Button />
+      <ButtonContainer />
     </CionruThemeProvider>
   </div>
 );
