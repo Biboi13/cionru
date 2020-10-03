@@ -11,7 +11,7 @@
 
 > A work-in-progress React UI component library that aims to be accessible, responsive, modern and minimal.
 
-[![0.1.0 NPM Version](https://img.shields.io/badge/npm-v0.1.0-orange)](http://npmjs.com/package/cionru)
+[![0.2.0 NPM Version](https://img.shields.io/badge/npm-v0.2.0-orange)](http://npmjs.com/package/cionru)
 [![MIT License Status](https://img.shields.io/badge/license-MIT-blue)](https://github.com/jorenrui/cionru/blob/main/LICENSE)
 
 A React UI component library built with EmotionJS.
