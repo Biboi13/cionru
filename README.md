@@ -24,12 +24,10 @@ Install it using [yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/):
 
 ```bash
 # Using NPM
-npx cionru
-# or
 npm install --save cionru
 
 # Using Yarn
-yarn cionru
+yarn add cionru
 ```
 
 ## Usage
