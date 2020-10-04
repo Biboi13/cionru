@@ -1,5 +1,5 @@
 // ANCHOR Constants
-export { SIZE } from '../utils/constants';
+export { SIZE, KIND, COLOR } from '../utils/constants';
 
 // ANCHOR Button
 export { Button } from './button';
