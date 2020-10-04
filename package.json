@@ -17,9 +17,9 @@
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
+    "prepare:dist": "cp -rf package.json README.md LICENSE CHANGELOG.md dist",
     "prepublishOnly": "echo \"Error: Don't run 'npm publish' in root. Use 'npm run dist' instead.\" && exit 1",
-    "predist": "cp -rf package.json README.md LICENSE CHANGELOG.md dist",
-    "distbeta": "cd dist && npm publish --ignore-scripts --tag beta",
+    "dist:beta": "cd dist && npm publish --ignore-scripts --tag beta",
     "dist": "cd dist && npm publish --ignore-scripts"
   },
   "husky": {

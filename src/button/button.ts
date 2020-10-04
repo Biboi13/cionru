@@ -46,7 +46,7 @@ export const Button = styled.button<IButtonProps, ITheme>(
       ...getColorStyles({ theme, color, kind }),
       ...getBorderStyles({ theme, color, size, kind }),
 
-      '&:hover, &:focus, &:active': {
+      '&:hover, &:focus': {
         ...getHoverColorStyles({ theme, color, kind }),
       },
 
