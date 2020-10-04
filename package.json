@@ -2,15 +2,12 @@
   "name": "cionru",
   "description": "A React component library built with EmotionJS",
   "author": "Joeylene Rivera",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "license": "MIT",
   "repository": "jorenrui/cionru",
-  "main": "dist/index.js",
-  "module": "dist/cionru.esm.js",
-  "typings": "dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "main": "index.js",
+  "module": "cionru.esm.js",
+  "typings": "index.d.ts",
   "engines": {
     "node": ">=10"
   },
@@ -20,8 +17,10 @@
     "test": "tsdx test --passWithNoTests",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
-    "size": "size-limit",
-    "analyze": "size-limit --why"
+    "prepublishOnly": "echo \"Error: Don't run 'npm publish' in root. Use 'npm run dist' instead.\" && exit 1",
+    "predist": "cp -rf package.json README.md LICENSE CHANGELOG.md dist",
+    "distbeta": "cd dist && npm publish --ignore-scripts --tag beta",
+    "dist": "cd dist && npm publish --ignore-scripts"
   },
   "husky": {
     "hooks": {
@@ -35,7 +34,10 @@
     "trailingComma": "es5"
   },
   "peerDependencies": {
-    "react": ">=16"
+    "react": ">=16",
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
+    "emotion-theming": "^10.0.27"
   },
   "devDependencies": {
     "@emotion/core": "^10.0.35",
