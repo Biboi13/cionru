@@ -11,7 +11,7 @@
 
 > A work-in-progress React UI component library that aims to be accessible, responsive, modern and minimal.
 
-[![0.2.2-beta NPM Version](https://img.shields.io/badge/npm-v0.2.2-beta-orange)](http://npmjs.com/package/cionru)
+[![0.2.2 NPM Version](https://img.shields.io/badge/npm-v0.2.2-orange)](http://npmjs.com/package/cionru)
 [![MIT License Status](https://img.shields.io/badge/license-MIT-blue)](https://github.com/jorenrui/cionru/blob/main/LICENSE)
 
 A React UI component library built with EmotionJS.
@@ -68,7 +68,7 @@ Cionru allows theme customization. You may do it by adding a `ThemeProvider` to 
 
 ```javascript
 import * as React from 'react';
-import { ThemeProvider } from 'cionru';
+import { ThemeProvider } from 'emotion-theming';
 import { theme } from '../path/to/custom/theme';
 
 function App() {
