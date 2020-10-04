@@ -2,7 +2,7 @@
   "name": "cionru",
   "description": "A React component library built with EmotionJS",
   "author": "Joeylene Rivera",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "license": "MIT",
   "repository": "jorenrui/cionru",
   "main": "index.js",
