@@ -1,10 +1,13 @@
 // ANCHOR React
 import * as React from 'react';
 
+// ANCHOR Emotion
+import styled from '@emotion/styled';
+
 // ANCHOR Cionru
 import {
-  Button, SIZE, KIND, COLOR, styled,
-} from '../../.';
+  Button, SIZE, KIND, COLOR,
+} from '../../dist';
 
 // ANCHOR Components
 import { Container } from './Container';
